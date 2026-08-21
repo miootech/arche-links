@@ -1,9 +1,8 @@
 arche.links — application source code
 Copyright (c) Arche
 
-This application's source code is provided as-is for your use under the
-MIT license. You may use, modify, and distribute it freely, including
-for commercial purposes, with attribution.
+MIT License — use, modify, distribute freely (including commercially)
+with attribution.
 
 The application is 100% client-side. Profile data lives either in:
   - The URL hash fragment (shared via your Cloudflare Pages URL)
