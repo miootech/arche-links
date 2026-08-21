@@ -168,22 +168,20 @@ function MobilePreview({ state }: { state: ProfileState }) {
 function BrandMark() {
   return (
     <div
-      className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-surface-elevated to-surface ring-1 ring-inset ring-border"
+      className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-surface-elevated to-surface ring-1 ring-inset ring-border overflow-hidden"
       aria-hidden="true"
     >
-      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="11" cy="11" r="4" className="fill-amber-accent" />
-        <circle cx="4" cy="5" r="2.2" className="fill-foreground" />
-        <circle cx="18" cy="5" r="2.2" className="fill-foreground" opacity="0.7" />
-        <circle cx="11" cy="19" r="2.2" className="fill-foreground" opacity="0.5" />
-        <path
-          d="M5.5 6.5L9 9.5M16.5 6.5L13 9.5M11 17V13.5"
-          stroke="currentColor"
-          className="text-amber-accent"
-          strokeWidth="1.4"
-          strokeLinecap="round"
-        />
-      </svg>
+      {/*
+        Replace /public/logo.png with your own logo file.
+        Recommended: square PNG, 64×64 px or larger (renders at 22×22).
+        Transparent background works best on both light + dark themes.
+      */}
+      <img
+        src="/logo.png"
+        alt=""
+        className="h-6 w-6 object-contain"
+        draggable={false}
+      />
     </div>
   );
 }
