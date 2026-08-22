@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Arche", url: "https://arche-website.pages.dev" }],
   creator: "Arche",
   publisher: "Arche",
+  // Google Search Console Verifizierung:
+  verification: {
+    google: "GKF68M3dwQHT6O94KVs_RwY2jcvNjgKZRuVbXdylG54",
+  },
   keywords: [
     "linktree alternative free",
     "free linktree",
