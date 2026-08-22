@@ -35,16 +35,14 @@ const SOCIAL_ICONS: Record<string, string> = {
     "M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.6.3-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 015 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.4 4.6-4.6 4.9.3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A10 10 0 0012 2z",
   linkedin:
     "M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zM8.3 18H5.7V9.7h2.6V18zM7 8.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm11 9.5h-2.6v-4c0-1-.4-1.6-1.2-1.6s-1.4.6-1.4 1.6v4H10.2V9.7h2.6v1.1c.4-.6 1.3-1.3 2.4-1.3 1.7 0 3 1.1 3 3.5V18z",
-  twitch:
-    "M4 3l1.5 17 6.5 3.5 6.5-3.5L20.5 3H4zm13 5.5h-9V7h9v1.5zm-1.5 5h-7.5V12H15.5v1.5z",
+  twitch: "M4 3l1.5 17 6.5 3.5 6.5-3.5L20.5 3H4zm13 5.5h-9V7h9v1.5zm-1.5 5h-7.5V12H15.5v1.5z",
   discord:
     "M19.5 5.6c-1.4-.6-2.9-1.1-4.5-1.4l-.2.4c-1.5-.2-3-.2-4.5 0l-.2-.4c-1.6.3-3.1.8-4.5 1.4C2.8 9.2 2.2 12.8 2.5 16.3c1.8 1.3 3.5 2.1 5.2 2.6l.5-1.7c-.5-.2-1-.4-1.5-.7l.4-.3c2.9 1.3 6 1.3 8.9 0l.4.3c-.5.3-1 .5-1.5.7l.5 1.7c1.7-.5 3.4-1.3 5.2-2.6.4-4-.5-7.6-2.6-10.7zM8.9 14.4c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7zm6.2 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7z",
   facebook:
     "M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0022 12z",
   spotify:
     "M12 2a10 10 0 100 20 10 10 0 000-20zm4.6 14.4c-.2.3-.6.4-.9.2-2.4-1.5-5.4-1.8-9-1-.4.1-.7-.2-.8-.5-.1-.4.2-.7.5-.8 3.9-.9 7.2-.5 9.9 1.2.4.2.5.6.3.9zm1.2-2.7c-.2.4-.7.5-1.1.3-2.7-1.7-6.9-2.2-10.1-1.2-.4.1-.9-.1-1-.5-.1-.4.1-.9.5-1 3.7-1.1 8.3-.6 11.4 1.3.4.2.5.7.3 1.1zm.1-2.8C14.7 8.8 9.4 8.6 6.3 9.5c-.5.2-1.1-.1-1.2-.7-.2-.5.1-1.1.7-1.2 3.6-1.1 9.4-.9 13.1 1.4.5.3.7.9.4 1.4-.3.4-.9.6-1.4.3z",
-  email:
-    "M2 5a2 2 0 012-2h16a2 2 0 012 2v14a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm2.4.4L12 11l7.6-5.6H4.4zM20 7l-7.6 5.4a.8.8 0 01-.8 0L4 7v12h16V7z",
+  email: "M2 5a2 2 0 012-2h16a2 2 0 012 2v14a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm2.4.4L12 11l7.6-5.6H4.4zM20 7l-7.6 5.4a.8.8 0 01-.8 0L4 7v12h16V7z",
   website:
     "M12 2a10 10 0 100 20 10 10 0 000-20zm0 1.8c1.6 0 3.2 1.6 4.2 4.2H7.8C8.8 5.4 10.4 3.8 12 3.8zM6 12c0-1.4.2-2.7.5-3.9h4.5v8H6.5A12 12 0 016 12zm6 4.1v-8h4.5c.3 1.2.5 2.5.5 3.9s-.2 2.7-.5 4.1H12zm-2.7 3.6c-.6-.9-1.1-2.1-1.4-3.6h2.9v3.6h-1.5zm4.4 0v-3.6h2.9c-.3 1.5-.8 2.7-1.4 3.6h-1.5zm5.7-3.6H17c.3-1.3.5-2.7.5-4.1s-.2-2.8-.5-4.1h2.4c.4 1.3.6 2.7.6 4.1s-.2 2.8-.6 4.1z",
 };
@@ -70,11 +68,18 @@ export function generateProfileHTML(
 ): string {
   const mode = options.mode ?? "auto";
   const includeData = options.includeData ?? true;
+  const profileJson = JSON.stringify(profile);
 
-  // Escaping `<` prevents script-breakout XSS when embedding JSON into inline <script> tags.
-  const profileJson = JSON.stringify(profile).replace(/</g, "\\u003c");
-
-  const t = profile.theme;
+  // We use TWO sets of CSS custom properties (--bg, --text, etc.) — one for
+  // light, one for dark — and switch between them based on the mode.
+  const lightTheme = profile.theme;
+  // If the profile's theme has a dark variant shipped (which it does, since
+  // we apply presets' dark variant into a ThemeSpec), use that. But because
+  // a profile stores a single ThemeSpec, we derive a "dark" variant by
+  // falling back to the same colors when no dark variant exists.
+  // For the export, we use the ThemeSpec as-is and apply prefers-color-scheme
+  // only if mode === "auto".
+  const t = lightTheme;
 
   const themeCssVars = `
     --bg: ${t.background};
@@ -88,7 +93,6 @@ export function generateProfileHTML(
   `;
 
   const layout = profile.layout;
-
   // Shadow styles per layout.
   const shadowMap = [
     "none",
@@ -113,7 +117,7 @@ export function generateProfileHTML(
   const align = layout.align === "center" ? "center" : "flex-start";
   const textAlign = layout.align === "center" ? "center" : "left";
 
-  return `<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html lang="en" data-mode="${mode}">
 <head>
 <meta charset="utf-8"/>
@@ -125,7 +129,7 @@ export function generateProfileHTML(
 <meta property="og:description" content="${escapeHtml(profile.bio)}"/>
 ${
   profile.avatar
-    ? `<meta property="og:image" content="${escapeHtml(profile.avatar)}"/>`
+    ? `<meta property="og:image" content="${profile.avatar}"/>`
     : ""
 }
 <style>
@@ -141,9 +145,7 @@ body{min-height:100svh; padding:32px 20px; padding-top:calc(32px + env(safe-area
 .verified{display:inline-flex; width:18px; height:18px; background:var(--accent); border-radius:50%; align-items:center; justify-content:center; color:var(--bg); font-size:12px; font-weight:bold;}
 .bio{font-size:15px; color:var(--muted); margin-top:-12px; max-width:90%; line-height:1.45;}
 .links{width:100%; display:flex; flex-direction:column; gap:${layout.gap}px; margin-top:8px;}
-.link{display:flex; align-items:center; justify-content:center; gap:10px; ${cardStyle} border-radius:${layout.radius}px; padding:${layout.padding}px ${
-    layout.padding + 4
-  }px; text-decoration:none; color:${linkTextForStyle}; font-size:15px; font-weight:500; transition:transform .15s ease, box-shadow .15s ease, opacity .15s ease; line-height:1.2; min-height:48px; width:100%;}
+.link{display:flex; align-items:center; justify-content:center; gap:10px; ${cardStyle} border-radius:${layout.radius}px; padding:${layout.padding}px ${layout.padding + 4}px; text-decoration:none; color:${linkTextForStyle}; font-size:15px; font-weight:500; transition:transform .15s ease, box-shadow .15s ease, opacity .15s ease; line-height:1.2; min-height:48px; width:100%;}
 .link:hover{transform:translateY(-1px); opacity:.92;}
 .link:active{transform:translateY(0);}
 .link .icon{font-size:18px; line-height:1;}
@@ -162,7 +164,7 @@ ${includeData ? `<script>window.__ARCHE_PROFILE__=${profileJson};</script>` : ""
 <div class="wrap">
 <div class="avatar">${
     profile.avatar
-      ? `<img src="${escapeHtml(profile.avatar)}" alt="${escapeHtml(profile.name)}"/>`
+      ? `<img src="${profile.avatar}" alt="${escapeHtml(profile.name)}"/>`
       : `<span class="avatar-empty">${escapeHtml(profile.name.charAt(0) || "U")}</span>`
   }</div>
 <div class="name">${escapeHtml(profile.name)}${
@@ -200,10 +202,11 @@ ${profile.socials
 </div>`
     : ""
 }
-<a class="footer-brand" href="https://arche-website.pages.dev/" target="_blank" rel="noopener noreferrer">made with arche.links</a>
+<a class="footer-brand" href="https://arche-projects.pages.dev" target="_blank" rel="noopener noreferrer">made with arche.links</a>
 </div>
 </body>
 </html>`;
+  return html;
 }
 
 function escapeHtml(s: string): string {

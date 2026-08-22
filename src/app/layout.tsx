@@ -16,17 +16,13 @@ const OG_IMAGE = "/og-image.png";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title:
-    "arche.links — Free Linktree Alternative",
+    "arche.links — Free Linktree Alternative | Unlimited Links, No Sign-up",
   description:
     "Build your Linktree-style page with all premium features free. Unlimited links, themes, custom colors, and layouts. Export as standalone HTML or share via URL. 100% client-side.",
   applicationName: SITE_NAME,
-  authors: [{ name: "Arche", url: "https://arche-website.pages.dev" }],
+  authors: [{ name: "Arche", url: "https://arche-projects.pages.dev" }],
   creator: "Arche",
   publisher: "Arche",
-  // Google Search Console Verifizierung:
-  verification: {
-    google: "GKF68M3dwQHT6O94KVs_RwY2jcvNjgKZRuVbXdylG54",
-  },
   keywords: [
     "linktree alternative free",
     "free linktree",
@@ -61,7 +57,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
     title:
-      "arche.links — Free Linktree Alternative",
+      "arche.links — Free Linktree Alternative | Unlimited Links, No Sign-up",
     description:
       "Build your Linktree-style page with all premium features free. Unlimited links, themes, custom colors, and layouts. Export as standalone HTML or share via URL.",
     images: [
@@ -131,19 +127,19 @@ const jsonLd = {
       author: {
         "@type": "Organization",
         name: "Arche",
-        url: "https://arche-website.pages.dev",
+        url: "https://arche-projects.pages.dev",
       },
       publisher: {
         "@type": "Organization",
         name: "Arche",
-        url: "https://arche-website.pages.dev",
+        url: "https://arche-projects.pages.dev",
       },
     },
     {
       "@type": "Organization",
-      "@id": "https://arche-website.pages.dev/#org",
+      "@id": "https://arche-projects.pages.dev/#org",
       name: "Arche",
-      url: "https://arche-website.pages.dev",
+      url: "https://arche-projects.pages.dev",
     },
   ],
 };
